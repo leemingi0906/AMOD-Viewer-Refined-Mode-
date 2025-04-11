@@ -11,7 +11,7 @@
 <p align="center">
   <b>Junggyun Oh</b>,
   <b>Yechan Kim</b> and
-  <b>Suyeon Oh</b>
+  <b>SungHeon Kim</b>
 </p>
 
 ### This repo includes:
