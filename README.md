@@ -1,6 +1,12 @@
-<h1 align="center" style="font-weight: 500; line-height: 1.4;">
-  Viewer for <strong>AMOD</strong>: <strong>A</strong>RMA3 <strong>M</strong>ilitary <strong>O</strong>bject <strong>D</strong>etection
-</h1>
+<div align="center">
+    <img alt="AMOD: Arma3 Military Object Detection" src="https://raw.githubusercontent.com/unique-chan/AMOD/fce0e87e9daad60d111cd0675b9a0d785d5e6ebb/mmrotate/Logo.svg" />
+</div>
+
+<hr>
+
+<h3 align="center">
+ 🎨 Viewer for Dataset
+</h3>
 
 <p align="center">
   <a href="#"><img alt="Python3.8" src="https://img.shields.io/badge/Python-3.8-blue?logo=python&logoColor=white"></a>
@@ -8,10 +14,11 @@
   <a href="./blob/main/LICENSE"><img alt="MIT" src="https://img.shields.io/badge/License-MIT-green?logo=MIT"></a>
 </p>
 
+<hr>
+
 <p align="center">
-  <b>Junggyun Oh</b>,
-  <b>Yechan Kim</b> and
-  <b>SungHeon Kim</b>
+  Correspondence to 
+  <b>Junggyun Oh</b>, <b>Yechan Kim,</b> and <b>SungHeon Kim</b>
 </p>
 
 ### This repo includes:
