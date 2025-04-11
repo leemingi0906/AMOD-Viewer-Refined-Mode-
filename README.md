@@ -5,7 +5,7 @@
 <hr>
 
 <h3 align="center">
- 🎨 Viewer for Dataset
+ 🎨 Data Viewer
 </h3>
 
 <p align="center">
