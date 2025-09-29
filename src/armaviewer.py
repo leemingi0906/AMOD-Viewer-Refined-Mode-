@@ -649,7 +649,7 @@ class ArmaViewer(QWidget):
         self.set_scale_and_policy(canvas_resized)
 
     def load_annotations_from_csv(self, csv_data):
-        self.anno_file = csv_data
+        self.anno_file = csv_data 
         self.annotation_objects = []
         self.selected_object = None
         self.set_transform_controls_enabled(False)
@@ -658,8 +658,9 @@ class ArmaViewer(QWidget):
         if csv_data is None or csv_data.empty: return
 
         for idx, row in csv_data.iterrows():
-            obj_id = row.get('id', f'obj_{idx}')
-            self.annotation_objects.append(AnnotationObject(obj_id, row))
+            # AnnotationObject 생성자에 'row' (pandas Series)와 'self' (ArmaViewer 인스턴스)를 전달합니다.
+            # AnnotationObject 내부에서 row_data를 파싱하고 변환 상태를 초기화합니다.
+            self.annotation_objects.append(AnnotationObject(row, self))
 
     def set_transform_controls_enabled(self, enabled):
         self.transform_box.setEnabled(enabled)
